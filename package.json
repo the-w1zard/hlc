@@ -1,6 +1,6 @@
 {
     "name": "@the-w1zard/hlc",
-    "version": "1.0.0",
+    "version": "1.0.1",
     "type": "module",
     "main": "./dist/index.js",
     "exports": {
@@ -32,6 +32,5 @@
         "@types/node": "^24.19.2",
         "typescript": "^6.0.3"
     },
-    "dependencies": {
-    }
+    "dependencies": {}
 }
