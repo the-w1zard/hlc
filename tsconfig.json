@@ -1,0 +1,29 @@
+{
+  "compilerOptions": {
+	"lib": ["DOM", "DOM.Iterable", "ES2022", "ES2021.WeakRef"],
+	"target": "ES2022",
+	"module": "ESNext",
+	"moduleResolution": "bundler",
+	"rootDir": "./src",
+	"outDir": "./dist",
+	"declaration": true,
+	"declarationMap": true,
+	"allowJs": true,
+	"strict": true,
+	"noEmit":false,
+	"isolatedModules": false,
+	"skipLibCheck": true,
+    "types":[
+		"./src/dx.d.ts",
+		"@the-w1zard/alias_types",
+		"node",
+    ],
+	"ignoreDeprecations": "6.0",
+	"baseUrl": ".",
+	"paths": {
+		"~/*": ["src/*"],
+	}
+  },
+  "include": ["**/*.ts", "**/*.tsx",  "**/*.d.ts" ],
+  "exclude": ["node_modules", "dist", "./RKIVE/**/*",  "rspack.config.ts",  "sauron-rspack.ts"],
+}
